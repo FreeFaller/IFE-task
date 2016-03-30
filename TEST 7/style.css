@@ -1,0 +1,148 @@
+ /*reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+li{list-style:none;}
+a{cursor:pointer;text-decoration : none;color: #787b83;}
+button{cursor:pointer;}
+body,textarea,input,button,select,keygen,legend{font:12px/1.14 "Microsoft YaHei",arial,\5b8b\4f53;color:#666;outline:0;}
+html,body{height:230%;}
+/* 布局 */
+.g-doc{position:absolute;top:0;left:0;width:100%;height:230%;min-width:1350px;}
+.g-hd{position:relative;z-index:10;height:70px;background:#ffffff;}
+
+/* 图标 */
+.u-icon{background:url(img/icon.png) no-repeat 9999px 9999px;display:inline-block;vertical-align:middle;}
+.u-icon-logo{width:31px;height:31px;background-position:0 0;cursor: pointer;margin: 15px 10px 15px 70px;float: left;}
+.u-icon-user{width:14px;height:17px;background-position:0 -47px;cursor: pointer;margin: -4px 5px 0 -14px;}
+.u-icon-circle{width:42px;height:42px;background-position:0 -79px;cursor: pointer;margin-left: 46%;margin-top: 130px;}
+.u-icon-flag{width:42px;height:42px;background-position:0 -144px;cursor: pointer;margin-left: 46%;margin-top: 130px;}
+.u-icon-flower{width:42px;height:42px;background-position:0 -199px;cursor: pointer;margin-left: 46%;margin-top: 130px;}
+.u-icon-block{width:42px;height:42px;background-position:0 -261px;cursor: pointer;margin-left: 46%;margin-top: 130px;}
+.u-icon-book{width:91px;height:91px;background-position:0 -320px;cursor: pointer;margin-left: 49%;margin-top: 130px;}
+.u-icon-select{width:17px;height:17px;background-position:-1px -436px;margin-left: -26px;pointer-events: none;}
+.u-icon-triangle{width:25px;height:31px;background-position:-1px -467px;float: right;margin-top: 280px;}
+.u-icon-chose{width:12px;height:12px;background-position:-67px -9px;}
+.u-icon-unchose{width:12px;height:12px;background-position:-91px -9px;}
+.u-icon-triangle2{width:25px;height:31px;background-position:-38px -467px;position: absolute;top: 280px;left: -1px;}
+.u-icon-more{width:10px;height:6px;background-position:-67px -49px;}
+.u-icon-qq{width:25px;height:25px;background-position:-65px -75px;cursor: pointer;}
+.u-icon-blog{width:25px;height:25px;background-position:-65px -120px;cursor: pointer;}
+.u-icon-twitter{width:25px;height:25px;background-position:-65px -164px;cursor: pointer;}
+.u-icon-web{width:25px;height:25px;background-position:-65px -207px;cursor: pointer;}
+
+/* 模块 */
+/* 顶部 */
+/*.m-top{position: fixed;}*/
+.m-top .title{font-size: 21px;color: #393a3a;padding-top: 20px;}
+.m-top ul{float: right;margin-top: -23px;font-size: 14px;}
+.m-top li{display: inline-block;margin-right: 20px;padding: 0 13px 15px 13px;}
+.m-top .z-act{color:#e74f4d;border-bottom: solid 5px #e74f4d;}
+.m-top .login a{margin-right: 30px;color:#e74f4d;}
+
+/* 首页 */
+.m-home img{width: 100%;position: absolute;left: 0;top:55px;z-index: -1;min-width: 1200px;min-height: 1150px; max-height: 1300px;}
+.m-home .u-slogan{font-size: 60px;color: #ffffff;margin: 20% 0 0 8%;}
+.m-home .u-slogan-little{font-size: 21px;color: #ffffff;margin: 1% 0 0 8%;line-height: 35px;}
+.m-home .u-btn-begin{font-size: 30px;color: #ffffff;width: 350px;padding: 18px;background-color: #e74f4d;border-width: 0;letter-spacing: 4px;margin: 4% 0 0 8%;}
+.m-home .u-btn-begin:active{background-color: #f66a68;}
+
+/* 介绍 */
+.m-introduct{margin-top: 1150px;position: relative;}
+.m-introduct .life{width: 25%;height: 420px;float: left;}
+.m-introduct .avtive{width: 25%;height: 420px;float: left;}
+.m-introduct .fashion{width: 25%;height: 420px;float: left;}
+.m-introduct .train{width: 25%;height: 420px;float: left;}
+.m-introduct .word{text-align: center;line-height: 20px;margin-top: 60px;border-right:solid 2px #767777;padding-bottom: 20px;}
+.m-introduct .word1{text-align: center;line-height: 20px;margin-top: 60px;}
+
+/*新世界分割*/
+.m-about-world{width: 100%;height: 500px;background-color: #edecec;clear: left;}
+.m-about-world .word2{text-align: center;color: #a1a1a1;font-size: 54px;margin-top: 50px;}
+
+/*活动信息*/
+.m-info{height: 500px;overflow: hidden;position: relative;}
+.m-info .select{width: 80%;margin: 0 10%;height: auto;}
+.m-info img{width: 100%;min-height: 500px;z-index: -1;position: absolute;}
+.m-info .word3{text-align: center;color: #ffffff;font-size: 21px;margin-top: 80px;}
+.m-info hr{width: 2%;margin-left: 49%;margin-top: 15px;height: 2px;color: #ffffff;background-color: #ffffff;border-width: 0;}
+.m-info .word4{color: #ffffff;text-align: center;margin-top: 30px;}
+.m-info .select-addr{margin-top: 70px;width: 25%;text-align: center;float: left;}
+.m-info .my-select{width: 240px;height: 40px;padding-left: 10px;}
+.m-info .search-btn{width: 240px;background-color: #be4f48;color: #ffffff;padding: 12px 0 13px 10px;margin-left: 10%;letter-spacing: 20px;cursor: pointer;font-size: 14px;}
+
+/*各地活动信息*/
+.m-action{width: 100%;height: 600px;background-color: #f8f8f8;}
+.m-action .beijing-action{width: 25%;display: table-cell;text-align: center;vertical-align: middle;float: left;}
+.m-action .shanghai-action{width: 25%;float: left;display: table-cell;text-align: center;vertical-align: middle;}
+.m-action .shenzhen-action{width: 25%;float: left;display: table-cell;text-align: center;vertical-align: middle;}
+.m-action .xianggang-action{width: 25%;float: left;display: table-cell;text-align: center;vertical-align: middle;}
+.m-action img{border: solid 1px #e0e0e0;padding: 10px 8px;margin-top: 90px;}
+.m-action .m-content{width: 80%;margin: 0 10%;}
+.m-action .pic-2{margin-top: 15px;}
+.m-action .word5{font-size: 14px;font-weight: bold;margin-top: 15px;margin-bottom: 15px;}
+.m-action .word6{font-size: 25px;letter-spacing: 30px;margin-top: 88px;margin-left: 30px;margin-bottom: 15px;}
+
+/*新世界*/
+.m-new-world{width: 100%;height: 580px;z-index: -99;}
+.m-new-world p{text-align: center;}
+.m-new-world .pic{width: 66%;float: left;overflow: hidden;position: relative;height: 100%;z-index: 1}
+.m-new-world .pic img{width: 100%;position: absolute;z-index: -1;}
+.m-new-world .word1{font-size: 50px;color: #ffffff;margin-top: 130px;}
+.m-new-world .word2{font-size: 158px;color: #ffffff;margin-top: -20px;}
+.m-new-world .word3{font-size: 22px;color: #ffffff;line-height: 40px;}
+.m-new-world .word-area{width: 34%;float: left;height: 100%}
+.m-new-world .word4{font-size: 20px;color: #060606;margin-top: 170px;}
+.m-new-world .word4 span{color: red;}
+.m-new-world .word5{line-height: 30px;color: #aaaaaa;}
+.m-new-world .word5 span{margin-left: -96px;}
+.m-new-world .more-info{margin-top: 50px;color: #e25c60;}
+.m-new-world .more-info span{cursor: pointer;border: solid 1px #e25c60;padding: 5px 20px;}
+.m-new-world ul{text-align: center;margin-left: -3px;margin-top: 30px;}
+.m-new-world li{display: inline-block;margin-left: 5px;}
+
+/*爱生活*/
+.m-love-life{width: 100%;height: 600px;}
+.m-love-life .red{height: 100%;width:33%;background-color: #e74f4d;float: left;color: #ffffff;}
+.m-love-life .red .word1{text-align: center;font-size: 21px;margin-top: 200px;line-height: 30px;}
+.m-love-life .red hr{width: 6%;color: #ffffff;background-color: #ffffff;height: 2px;border-width: 0;margin: 27px 0 35px 47%;}
+.m-love-life .red .word2{;font-size: 21px;line-height: 30px;text-align: center;}
+.m-love-life .red a{color: #ffffff;border: solid 1px #ffffff;padding: 8px 40px;}
+.m-love-life .white{height: 100%;width: 33%;background-color: #ffffff;float: left;;color: #323333;}
+.m-love-life .white .word1{text-align: center;font-size: 21px;margin-top: 200px;line-height: 30px;}
+.m-love-life .white hr{width: 6%;color: #ababab;background-color: #ababab;height: 2px;border-width: 0;margin: 27px 0 35px 47%;}
+.m-love-life .white .word2{;font-size: 21px;line-height: 30px;text-align: center;}
+.m-love-life .white a{color: #e74f4d;border: solid 1px #e74f4d;padding: 8px 40px;}
+.m-love-life .pic{float: left;width: 34%;height: 100%;overflow: hidden;position: relative;}
+.m-love-life .pic img{width: 100%;min-height: 600px;}
+
+/*志愿者*/
+.m-volunteer{width: 100%;height: 300px;}
+.m-volunteer .word1{font-size: 21px;color: #323333;text-align: center;margin:130px 0 20px 0;}
+.m-volunteer hr{width: 2%;color: #e74f4d;background-color: #e74f4d;height: 2px;border-width: 0;margin: 0 0 20px 49%;}
+.m-volunteer .word2{text-align: center;color: #aaaaaa;line-height: 20px;}
+
+/*协议及表单*/
+.m-form{width: 100%;height: 480px;margin-top: -70px;}
+.m-form .protocol{width: 41%;float: left;background-color: white;height: 100%;}
+.m-form .m-protocol{width: 55%;margin-left: 40%;}
+.m-form .m-protocol i{margin-left: 245px;}
+.m-form .m-protocol span{margin-top: -10px;}
+.m-form .m-protocol .word1{font-size: 14px;color: #231815;margin-bottom: 20px;}
+.m-form .m-protocol .word2{line-height: 20px;}
+.m-form .m-protocol .word3{margin-top: 60px;}
+.form .u-ipt{width: 300px;padding: 12px 0 12px 20px;background-color: #ededef;border-width: 0;margin-right: 20px;margin-bottom: 15px;}
+.form textarea{width: 642px;height: 150px;border-width: 0; resize: none;padding: 12px 0 12px 20px;background-color: #ededef;}
+.form .submit{width: 662px;height: 40px;border-width: 0;background-color: #ededef;cursor: pointer;padding: 12px 0;margin-top: 15px;}
+
+/*联系我们*/
+.m-connect{width: 100%;height: 500px;background-color: #33363f;clear: left;}
+.m-connect .word1{text-align: center;color: #ffffff;padding-top: 100px;font-size: 21px;}
+.m-connect .word2{text-align: center;color: #ffffff;line-height: 20px;margin-top: 10px;}
+.m-connect .search-ipt{color: #aaaaaa;width: 80%;height: 30px;padding-left: 10px;margin-top: 50px;margin-left: 20px;}
+.m-connect .search{width: 38%;height: auto;margin-left: 32%;}
+.m-connect .search span{cursor: pointer; color: #ffffff;font-size: 15px;background-color: #6f7178;padding: 6px 15px 8px 15px;margin: 2px 0 0 -10px;}
+.m-connect .search ul{margin-top: 45px;margin-left: 29%;}
+.m-connect .search li{display: inline-block;margin-left: 7%;}
+.m-connect .m-foot{background-color: #2f3038;width: 100%;height: 70px;margin-top: 100px;}
+.m-connect .word3{color: #ffffff;margin-left: 100px;padding-top: 30px;}
+.m-connect .word4{color: #ffffff;margin-right: 100px;float: right;margin-top: -10px;}
+.m-connect .word4 a{color: #ffffff;}
